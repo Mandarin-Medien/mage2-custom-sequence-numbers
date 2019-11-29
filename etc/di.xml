@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2019 Mandarin Medien G.f.d.L. mbH <https://www.mandarin-medien.de/>
+ * See LICENSE.txt bundled with this module for license details.
+ * @license MIT license
+ */
+ -->
+<config
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd"
+>
+    <preference for="Mandarin\CustomSequenceNumbers\Api\Helper\DataInterface"
+                type="Mandarin\CustomSequenceNumbers\Helper\Data"/>
+
+    <preference for="Mandarin\CustomSequenceNumbers\Api\Model\ResetInterface"
+                type="Mandarin\CustomSequenceNumbers\Model\SalesSequence\Sequence"/>
+
+    <preference for="Magento\SalesSequence\Model\Sequence"
+                type="Mandarin\CustomSequenceNumbers\Model\SalesSequence\Sequence"/>
+
+    <type name="Magento\Framework\DB\Sequence\SequenceInterface">
+        <arguments>
+            <argument name="pattern" xsi:type="string">%s%'.06d%s</argument> <!-- set pad length to 6 digits -->
+        </arguments>
+    </type>
+</config>

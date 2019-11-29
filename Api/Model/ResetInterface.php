@@ -5,13 +5,13 @@
  * @license MIT license
  */
 
-namespace Mandarin\CustomSequenceNumbers\Api\Model;
+namespace MandarinMedien\CustomSequenceNumbers\Api\Model;
 
 use Magento\Framework\DB\Sequence\SequenceInterface;
 
 /**
  * Interface ResetInterface
- * @package Mandarin\CustomSequenceNumbers\Api\Model
+ * @package MandarinMedien\CustomSequenceNumbers\Api\Model
  */
 interface ResetInterface extends SequenceInterface
 {

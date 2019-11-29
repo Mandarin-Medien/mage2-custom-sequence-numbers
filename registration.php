@@ -9,6 +9,6 @@ use Magento\Framework\Component\ComponentRegistrar;
 
 ComponentRegistrar::register(
     ComponentRegistrar::MODULE,
-    'Mandarin_CustomSequenceNumbers',
+    'MandarinMedien_CustomSequenceNumbers',
     __DIR__
 );

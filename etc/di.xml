@@ -10,14 +10,14 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd"
 >
-    <preference for="Mandarin\CustomSequenceNumbers\Api\Helper\DataInterface"
-                type="Mandarin\CustomSequenceNumbers\Helper\Data"/>
+    <preference for="MandarinMedien\CustomSequenceNumbers\Api\Helper\DataInterface"
+                type="MandarinMedien\CustomSequenceNumbers\Helper\Data"/>
 
-    <preference for="Mandarin\CustomSequenceNumbers\Api\Model\ResetInterface"
-                type="Mandarin\CustomSequenceNumbers\Model\SalesSequence\Sequence"/>
+    <preference for="MandarinMedien\CustomSequenceNumbers\Api\Model\ResetInterface"
+                type="MandarinMedien\CustomSequenceNumbers\Model\SalesSequence\Sequence"/>
 
     <preference for="Magento\SalesSequence\Model\Sequence"
-                type="Mandarin\CustomSequenceNumbers\Model\SalesSequence\Sequence"/>
+                type="MandarinMedien\CustomSequenceNumbers\Model\SalesSequence\Sequence"/>
 
     <type name="Magento\Framework\DB\Sequence\SequenceInterface">
         <arguments>

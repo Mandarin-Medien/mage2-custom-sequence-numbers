@@ -5,7 +5,7 @@
  * @license MIT license
  */
 
-namespace Mandarin\CustomSequenceNumbers\Model\SalesSequence;
+namespace MandarinMedien\CustomSequenceNumbers\Model\SalesSequence;
 
 use Magento\Framework\App\ResourceConnection as AppResource;
 use Magento\Framework\Exception\AlreadyExistsException;
@@ -13,14 +13,14 @@ use Magento\Framework\Model\AbstractModel;
 use Magento\SalesSequence\Model\Meta;
 use Magento\SalesSequence\Model\ResourceModel\Profile as ProfileResource;
 use Magento\SalesSequence\Model\Sequence as MageSequence;
-use Mandarin\CustomSequenceNumbers\Api\Helper\DataInterface;
-use Mandarin\CustomSequenceNumbers\Api\Model\ResetInterface;
+use MandarinMedien\CustomSequenceNumbers\Api\Helper\DataInterface;
+use MandarinMedien\CustomSequenceNumbers\Api\Model\ResetInterface;
 
 /**
  * CustomSequenceNumbers - Reset Model
  * Extends default sequence model by functions to reset data
  *
- * @package Mandarin\CustomSequenceNumbers\Model\SalesSequence
+ * @package MandarinMedien\CustomSequenceNumbers\Model\SalesSequence
  */
 class Sequence extends MageSequence implements ResetInterface
 {

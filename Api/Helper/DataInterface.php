@@ -5,14 +5,14 @@
  * @license MIT license
  */
 
-namespace Mandarin\CustomSequenceNumbers\Api\Helper;
+namespace MandarinMedien\CustomSequenceNumbers\Api\Helper;
 
 use Magento\Framework\DB\Sequence\SequenceInterface;
 use Magento\Sales\Model\Order;
 
 /**
  * Interface DataInterface
- * @package Mandarin\CustomSequenceNumbers\Api\Helper
+ * @package MandarinMedien\CustomSequenceNumbers\Api\Helper
  */
 interface DataInterface
 {

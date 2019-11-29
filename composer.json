@@ -1,5 +1,5 @@
 {
-  "name": "mandarin/module-customsequencenumbers",
+  "name": "mandarinmedien/module-customsequencenumbers",
   "description": "Creates custom increment ids for orders, invoices, credit memos and shipments.",
   "version": "1.0.0",
   "type": "magento2-module",
@@ -8,7 +8,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "Mandarin\\CustomSequenceNumbers\\": ""
+      "MandarinMedien\\CustomSequenceNumbers\\": ""
     }
   }
 }

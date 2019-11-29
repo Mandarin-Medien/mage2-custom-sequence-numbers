@@ -5,7 +5,7 @@
  * @license MIT license
  */
 
-namespace Mandarin\CustomSequenceNumbers\Helper;
+namespace MandarinMedien\CustomSequenceNumbers\Helper;
 
 use Magento\Framework\DB\Sequence\SequenceInterface;
 use Magento\Framework\Exception\NoSuchEntityException;
@@ -16,14 +16,14 @@ use Magento\Sales\Model\Order\Invoice;
 use Magento\Sales\Model\Order\Shipment;
 use Magento\SalesSequence\Model\Manager as SequenceManager;
 use Magento\Store\Model\StoreManagerInterface;
-use Mandarin\CustomSequenceNumbers\Api\Helper\DataInterface;
-use Mandarin\CustomSequenceNumbers\Api\Model\ResetInterface;
+use MandarinMedien\CustomSequenceNumbers\Api\Helper\DataInterface;
+use MandarinMedien\CustomSequenceNumbers\Api\Model\ResetInterface;
 
 /**
  * CustomSequenceNumbers - Default Helper
  * Helps customizing increment ids
  *
- * @package Mandarin\CustomSequenceNumbers\Helper
+ * @package MandarinMedien\CustomSequenceNumbers\Helper
  */
 class Data implements DataInterface
 {
